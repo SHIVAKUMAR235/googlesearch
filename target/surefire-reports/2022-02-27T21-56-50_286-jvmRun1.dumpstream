@@ -1,0 +1,359 @@
+# Created at 2022-02-27T21:57:48.371
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2022-02-27T21:57:50.388
+Unexpected IOException with stream:   Then compose is displayed                                              # glue.StepDef1.method4()
+
+
+# Created at 2022-02-27T21:57:50.422
+Unexpected IOException with stream:       org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-5KRLJ5F', ip: '192.168.43.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2e71470ea0046bab42fd267bce074819, findElement {using=xpath, value=//div[text()='Compose']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Acer\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53312}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53312/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e71470ea0046bab42fd267bce074819
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy20.isDisplayed(Unknown Source)
+	at pages.ComposePage.isComposeDisplayed(ComposePage.java:26)
+	at glue.StepDef1.method4(StepDef1.java:36)
+	at âœ½.compose is displayed(file:///F:/SHIVA235/org.magnitia.gmail3inheritance/src/test/resources/features/myfeature.feature:7)
+
+
+
+# Created at 2022-02-27T21:57:50.448
+Unexpected IOException with stream:   When click on compose and fill fields and send mail and check response # glue.StepDef2.method5(io.cucumber.datatable.DataTable)
+
+
+# Created at 2022-02-27T21:57:50.466
+Unexpected IOException with stream:     
+
+# Created at 2022-02-27T21:57:50.467
+Unexpected IOException with stream: | 
+
+# Created at 2022-02-27T21:57:50.468
+Unexpected IOException with stream: to
+
+# Created at 2022-02-27T21:57:50.469
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.470
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.471
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.472
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.473
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.474
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.475
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.476
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.477
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.478
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.479
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.480
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.481
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.482
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.483
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.484
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.485
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.486
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.487
+Unexpected IOException with stream:  | 
+
+# Created at 2022-02-27T21:57:50.490
+Unexpected IOException with stream: subject
+
+# Created at 2022-02-27T21:57:50.491
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.492
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.493
+Unexpected IOException with stream:  | 
+
+# Created at 2022-02-27T21:57:50.495
+Unexpected IOException with stream: body
+
+# Created at 2022-02-27T21:57:50.496
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.496
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.497
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.498
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.499
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.499
+Unexpected IOException with stream:  | 
+
+# Created at 2022-02-27T21:57:50.500
+Unexpected IOException with stream: attachment
+
+# Created at 2022-02-27T21:57:50.501
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.502
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.503
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.504
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.505
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.506
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.507
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.508
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.509
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.510
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.511
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.512
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.512
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.513
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.514
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.515
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.516
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.517
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.518
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.519
+Unexpected IOException with stream:  |
+
+# Created at 2022-02-27T21:57:50.520
+Unexpected IOException with stream: 
+
+
+# Created at 2022-02-27T21:57:50.520
+Unexpected IOException with stream:     
+
+# Created at 2022-02-27T21:57:50.521
+Unexpected IOException with stream: | 
+
+# Created at 2022-02-27T21:57:50.522
+Unexpected IOException with stream: magnitiait@gmail.com
+
+# Created at 2022-02-27T21:57:50.523
+Unexpected IOException with stream:  | 
+
+# Created at 2022-02-27T21:57:50.523
+Unexpected IOException with stream: wishes
+
+# Created at 2022-02-27T21:57:50.524
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.526
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.529
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.529
+Unexpected IOException with stream:  | 
+
+# Created at 2022-02-27T21:57:50.530
+Unexpected IOException with stream: hi bro
+
+# Created at 2022-02-27T21:57:50.531
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.532
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.533
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.534
+Unexpected IOException with stream:  | 
+
+# Created at 2022-02-27T21:57:50.536
+Unexpected IOException with stream: E:\Model Resume Exp.doc
+
+# Created at 2022-02-27T21:57:50.536
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.537
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.538
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.538
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.539
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.540
+Unexpected IOException with stream:  
+
+# Created at 2022-02-27T21:57:50.540
+Unexpected IOException with stream:  |
+
+# Created at 2022-02-27T21:57:50.541
+Unexpected IOException with stream: 
+
+
+# Created at 2022-02-27T21:57:50.542
+Unexpected IOException with stream:     
+
+# Created at 2022-02-27T21:57:50.543
+Unexpected IOException with stream: | 
+
+# Created at 2022-02-27T21:57:50.543
+Unexpected IOException with stream: magnitiait@gmail.com
+
+# Created at 2022-02-27T21:57:50.544
+Unexpected IOException with stream:  | 
+
+# Created at 2022-02-27T21:57:50.545
+Unexpected IOException with stream: test mail
+
+# Created at 2022-02-27T21:57:50.547
+Unexpected IOException with stream:  | 
+
+# Created at 2022-02-27T21:57:50.548
+Unexpected IOException with stream: hi friend
+
+# Created at 2022-02-27T21:57:50.549
+Unexpected IOException with stream:  | 
+
+# Created at 2022-02-27T21:57:50.550
+Unexpected IOException with stream: E:\Test-case-template-xls.xls
+
+# Created at 2022-02-27T21:57:50.551
+Unexpected IOException with stream:  |
+
+# Created at 2022-02-27T21:57:50.552
+Unexpected IOException with stream: 
+
+
+# Created at 2022-02-27T21:57:50.554
+Unexpected IOException with stream:   When do logout                                                         # glue.StepDef2.method6()
+
+
+# Created at 2022-02-27T21:57:50.557
+Unexpected IOException with stream:   Then login page should be redisplayed                                  # glue.StepDef2.method7()
+
+
+# Created at 2022-02-27T21:57:50.561
+Unexpected IOException with stream:   When close site                                                        # glue.StepDef2.method8()
+
+
+# Created at 2022-02-27T21:57:50.608
+Unexpected IOException: 7,1,Gmail mail compose,(Gmail mail compose),null,chrome not reachable\000A  (Session info: chrome=98.0.4758.102)\000ABuild info: version: '4.1.0'\002C revision: '87802e897b'\000ASystem info: host: 'DESKTOP-5KRLJ5F'\002C ip: '192.168.43.196'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_202'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [2e71470ea0046bab42fd267bce074819\002C findElement {using=xpath\002C value=//div[text()='Compose']}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 98.0.4758.102\002C chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90...\002C userDataDir: C:\005CUsers\005CAcer\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:53312}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:53312/devtoo...\002C se:cdpVersion: 98.0.4758.102\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 2e71470ea0046bab42fd267bce074819,null,chrome not reachable\000A  (Session info: chrome=98.0.4758.102)\000ABuild info: version: '4.1.0'\002C revision: '87802e897b'\000ASystem info: host: 'DESKTOP-5KRLJ5F'\002C ip: '192.168.43.196'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_202'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [2e71470ea0046bab42fd267bce074819\002C findElement {using=xpath\002C value=//div[text()='Compose']}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 98.0.4758.102\002C chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90...\002C userDataDir: C:\005CUsers\005CAcer\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:53312}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:53312/devtoo...\002C se:cdpVersion: 98.0.4758.102\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 2e71470ea0046bab42fd267bce074819,chrome not reachable\000A  (Session info: chrome=98.0.4758.102)\000ABuild info: version: '4.1.0'\002C revision: '87802e897b'\000ASystem info: host: 'DESKTOP-5KRLJ5F'\002C ip: '192.168.43.196'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_202'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [2e71470ea0046bab42fd267bce074819\002C findElement {using=xpath\002C value=//div[text()='Compose']}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 98.0.4758.102\002C chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90...\002C userDataDir: C:\005CUsers\005CAcer\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:53312}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:53312/devtoo...\002C se:cdpVersion: 98.0.4758.102\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 2e71470ea0046bab42fd267bce074819,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=98.0.4758.102)\000ABuild info: version: '4.1.0'\002C revision: '87802e897b'\000ASystem info: host: 'DESKTOP-5KRLJ5F'\002C ip: '192.168.43.196'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_202'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [2e71470ea0046bab42fd267bce074819\002C findElement {using=xpath\002C value=//div[text()='Compose']}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 98.0.4758.102\002C chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90...\002C userDataDir: C:\005CUsers\005CAcer\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:53312}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:53312/devtoo...\002C se:cdpVersion: 98.0.4758.102\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 2e71470ea0046bab42fd267bce074819\000A
+
+
+# Created at 2022-02-27T21:57:50.902
+Unexpected IOException with stream: ?????????????????????????????????????????????????????????????????????????????????????
+? Share your Cucumber Report with your team at https://reports.cucumber.io          ?
+? Activate publishing with one of the following:                                    ?
+?                                                                                   ?
+? src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    ?
+? src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    ?
+? Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    ?
+? JUnit:                                           @CucumberOptions(publish = true) ?
+?                                                                                   ?
+? More information at https://cucumber.io/docs/cucumber/environment-variables/      ?
+?                                                                                   ?
+? Disable this message with one of the following:                                   ?
+?                                                                                   ?
+? src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      ?
+? src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      ?
+?????????????????????????????????????????????????????????????????????????????????????
+
+
+# Created at 2022-02-27T21:57:50.904
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,tests.MyRunner,null,null,null
+
+
