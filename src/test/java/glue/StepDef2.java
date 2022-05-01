@@ -54,6 +54,6 @@ public class StepDef2 extends BaseClass
 	@When("close site")
 	public void method8()
 	{
-	    driver.close();
+	    driver.quit();
 	}
 }
