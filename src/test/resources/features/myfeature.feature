@@ -1,5 +1,5 @@
 Feature: Gmail mail compose
-
+@test regration test
   Scenario: 
     Given open "chrome" browser
     And launch site using "http://www.gmail.com"
